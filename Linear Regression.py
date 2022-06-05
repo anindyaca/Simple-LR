@@ -4,4 +4,8 @@ import matplotlib.pyplot as mpl
 import seaborn as sns
 
 df = pd.read_csv("Salary_Data.csv")
-print(df)
+# print(df.head())
+
+# print(df.describe()) --> gives basic stat for the dataset
+
+
