@@ -26,6 +26,6 @@ X_test = X_test[:,np.newaxis]
 
 from sklearn.linear_model import LinearRegression
 lr = LinearRegression()
-lr.fit(X_train , Y_train)
+lr.fit(X_train , Y_train) # fitting the linear model on train data
 
-Y_pred = lr.predict(X_test)
+Y_pred = lr.predict(X_test) # now using the model to predict on test data
