@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pickle5 as pickle
 from sklearn.model_selection import train_test_split
 
 df = pd.read_csv("Salary_Data.csv")
@@ -71,3 +72,6 @@ print('r squared = ',rsq)
 print('Intercept of line = ' , lr.intercept_)
 print('coefficient of line = ',lr.coef_)
 # y = 25202.88 + 9731.20x
+
+#saving model to disk
+pickle.dump(lr, open('lr_model.pkl' , 'wb'))
