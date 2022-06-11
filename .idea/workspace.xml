@@ -43,7 +43,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.matplotlib test">
+  <component name="RunManager" selected="Python.Linear Regression">
     <configuration name="Linear Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simple-LR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.matplotlib test" />
         <item itemvalue="Python.Linear Regression" />
+        <item itemvalue="Python.matplotlib test" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654921999099</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit1">
+      <created>1654923028925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654923028925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
