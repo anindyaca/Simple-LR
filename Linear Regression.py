@@ -73,6 +73,8 @@ print('Intercept of line = ' , lr.intercept_)
 print('coefficient of line = ',lr.coef_)
 # y = 25202.88 + 9731.20x
 
+
+#Deploying model to flask
 #saving model to disk
 pickle.dump(lr, open('lr_model.pkl' , 'wb')) # --> this pkl file is needed to deploy using Flask framework
 #test this pkl file model
