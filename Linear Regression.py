@@ -75,3 +75,5 @@ print('coefficient of line = ',lr.coef_)
 
 #saving model to disk
 pickle.dump(lr, open('lr_model.pkl' , 'wb'))
+#test this pkl file model
+#model = pickle.load(open('lr_model.pkl' , 'rb'))
