@@ -29,7 +29,7 @@ lr = LinearRegression()
 lr.fit(X_train , Y_train) # fitting the linear model on train data
 
 Y_pred = lr.predict(X_test) # now using the model to predict on test data
-
+#some plots to see test vs predicted values, and plot 2: error --> test - predicted values = error
 c = [i for i in range (1,len(Y_test)+1,1)]
 plt.plot(c,Y_test,color='r',linestyle='--')
 plt.plot(c,Y_pred,color='b',linestyle='--')
@@ -46,3 +46,15 @@ plt.xlabel =('index')
 plt.ylabel = ('error')
 plt.title = ('error value')
 plt.show()
+
+# Model Evaluation
+#Linear regression models are mainly evaluated by
+#1. Residual plots or error plots error --> actual/test - predicted values gives error/residual
+#residual plots exposes biasness in a lr model. residual plots show residual/error values on Y axis and
+#predicted values on X-axis. Plot should be randomly  plotted --> means errors across predicted values should be randomly distributed
+#if signs of systematic pattern in  distribution, then model is biased
+
+#2. R2 r- squared value --> r2 high ~ 1 -- model represents variance of the dependent variable
+# r2 low -- model does not represent the variance of the dependent variable and regression is almost equal to taking the mean value, i.e no information is used from other variables
+# r2 < 0 -- r squared negative -- worse than mean value, has negative value when the predictors do not explain the dependent variables at all
+# it is not possible to see perfect model with r2 = 1 --> this basically means all values fall on the regression line
