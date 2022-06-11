@@ -74,6 +74,6 @@ print('coefficient of line = ',lr.coef_)
 # y = 25202.88 + 9731.20x
 
 #saving model to disk
-pickle.dump(lr, open('lr_model.pkl' , 'wb'))
+pickle.dump(lr, open('lr_model.pkl' , 'wb')) # --> this pkl file is needed to deploy using Flask framework
 #test this pkl file model
 #model = pickle.load(open('lr_model.pkl' , 'rb'))
