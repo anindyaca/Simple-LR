@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as mpl
+import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 
@@ -29,3 +29,11 @@ lr = LinearRegression()
 lr.fit(X_train , Y_train) # fitting the linear model on train data
 
 Y_pred = lr.predict(X_test) # now using the model to predict on test data
+
+c = [i for i in range (1,len(Y_test)+1,1)]
+plt.plot(c,Y_test,color='r',linestyle='-')
+plt.plot(c,Y_pred,color='b',linestyle='-')
+plt.xlabel('Salary')
+plt.ylabel('index')
+plt.title('Prediction')
+plt.show()
