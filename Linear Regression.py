@@ -76,6 +76,6 @@ print('coefficient of line = ',lr.coef_)
 
 #Deploying model to flask
 #saving model to disk
-pickle.dump(lr, open('lr_model.pkl' , 'wb')) # --> this pkl file is needed to deploy using Flask framework
+pickle.dump(lr, open('lr_model.pkl', 'wb')) # --> this pkl file is needed to deploy using Flask framework
 #test this pkl file model
 #model = pickle.load(open('lr_model.pkl' , 'rb'))
