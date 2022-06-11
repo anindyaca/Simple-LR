@@ -37,3 +37,12 @@ plt.xlabel('Salary')
 plt.ylabel('index')
 plt.title('Prediction')
 plt.show()
+
+# Error : difference between test and predicted values
+error = Y_test - Y_pred
+c = [i for i in range(1,len(Y_test)+1 ,1)]
+plt.plot(c,error, color='green' , linestyle = '-')
+plt.xlabel =('index')
+plt.ylabel = ('error')
+plt.title = ('error value')
+plt.show()
