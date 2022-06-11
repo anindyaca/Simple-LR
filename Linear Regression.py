@@ -63,9 +63,9 @@ plt.show()
 
 # calculating these metrics
 from sklearn.metrics import r2_score, mean_squared_error
-mse = mean_squared_error(Y_test , Y_pred)
+rmse = mean_squared_error(Y_test , Y_pred , squared= True)
 rsq = r2_score(Y_test , Y_pred)
-print('mean squared error = ',mse)
+print('root mean squared error = ',rmse)
 print('r squared = ',rsq)
 # intercept and coefficient of line
 print('Intercept of line = ' , lr.intercept_)
