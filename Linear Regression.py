@@ -58,3 +58,16 @@ plt.show()
 # r2 low -- model does not represent the variance of the dependent variable and regression is almost equal to taking the mean value, i.e no information is used from other variables
 # r2 < 0 -- r squared negative -- worse than mean value, has negative value when the predictors do not explain the dependent variables at all
 # it is not possible to see perfect model with r2 = 1 --> this basically means all values fall on the regression line
+
+# more -- https://towardsdatascience.com/evaluation-metrics-model-selection-in-linear-regression-73c7573208be#:~:text=Evaluation%20metrics%20for%20a%20linear,R%2Dsquared%2C%20and%20RMSE.
+
+# calculating these metrics
+from sklearn.metrics import r2_score, mean_squared_error
+mse = mean_squared_error(Y_test , Y_pred)
+rsq = r2_score(Y_test , Y_pred)
+print('mean squared error = ',mse)
+print('r squared = ',rsq)
+# intercept and coefficient of line
+print('Intercept of line = ' , lr.intercept_)
+print('coefficient of line = ',lr.coef_)
+# y = 25202.88 + 9731.20x
