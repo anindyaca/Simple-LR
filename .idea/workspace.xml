@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654952898457</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="commit dumping pkl file">
+      <created>1654953054956</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654953054956</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +345,7 @@
     <MESSAGE value="commit2" />
     <MESSAGE value="commit3" />
     <MESSAGE value="lr_model pkl" />
-    <option name="LAST_COMMIT_MESSAGE" value="lr_model pkl" />
+    <MESSAGE value="commit dumping pkl file" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit dumping pkl file" />
   </component>
 </project>
