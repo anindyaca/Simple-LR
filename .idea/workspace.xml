@@ -57,7 +57,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.Linear Regression">
+  <component name="RunManager" selected="Python.app">
     <configuration name="Linear Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Simple-LR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +92,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/templates/api_flask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simple-LR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.Linear Regression" />
         <item itemvalue="Python.api_flask" />
         <item itemvalue="Python.request" />
@@ -314,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654953054956</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="commit 4">
+      <created>1655031760914</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655031760914</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,6 +375,7 @@
     <MESSAGE value="commit3" />
     <MESSAGE value="lr_model pkl" />
     <MESSAGE value="commit dumping pkl file" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit dumping pkl file" />
+    <MESSAGE value="commit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4" />
   </component>
 </project>
